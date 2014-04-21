@@ -84,13 +84,12 @@ def create_accountability_group(input_array)
 end
 
 # 4. Refactored Solution
+=begin
+Pretty simple solution really. A couple of assumptions include that there must be atleast 8 people if the remainder by 4 is 2,
+and atleast 5 people of the remainder by 4 is 1, and atleast 12 people if the remainder by 4 is 3. So, it won't work for the case
+of 1,2,3,6,7,11 people in the cohort - so assume that atleast 12 people belong in the cohort
 
-
-
-
-
-
-
+=end
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
 

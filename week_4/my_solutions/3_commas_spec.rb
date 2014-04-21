@@ -1,7 +1,6 @@
-require_relative "[Your file name here]" 
+require_relative "commas_separate_solo.rb" 
 #=> Make sure you change this to the name of your code file! Save that file
 # into this repo. 
-
 
 def random_num(min, max)
    rand(max - min + 1) + min
@@ -16,5 +15,8 @@ describe "seperate_comma" do
    end
    it "returns two commas, when the integer is between 1000000 and 999999999" do
       separate_comma(random_num(1000000, 999999999)).should match /^\d{1,3},\d{3},\d{3}$/
+   end
+   it "returns two commas, when the integer is between -1000000 and -999999999" do
+      separate_comma(random_num(-1000000, -999999999)).should match /^\d{1,3},\d{3},\d{3}$/
    end
 end
