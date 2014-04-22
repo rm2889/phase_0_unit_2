@@ -33,13 +33,27 @@ end
 
 # Questions:
 # 1. What is the .to_a method doing?
+# Ans: converts a range to an array
+
 # 2. How does the rotate method work? What does it work on?
+# Ans: In our context it works on a array and shifts the elements to the right by the parameter
+
 # 3. What is `each_char` doing?
+# Ans: loops through the sentence character by character
+
 # 4. What does `sample` do?
+# for every whitespace, takes a random element from the spaces array and places it in the encrypted version
+
 # 5. Are there any other methods you want to understand better?
+# Time will tell!
+
 # 6. Does this code look better or worse than your refactored solution
 #    of the original cipher code? What's better? What's worse?
+# 
+# Ans: Looks much more readable
+
 # 7. Is this good code? What makes it good? What makes it bad?
+# Clean and readable. I like it
 
 
 # 1. DRIVER TESTS GO BELOW THIS LINE
