@@ -74,5 +74,6 @@ p bakery_num(41, "cake") == "You need to make 0 pie(s), 6 cake(s), and 5 cookie(
 
 # Reflection 
 # make the max of whatever your favorite food first, and then make the remainder for the remaining number of people.
+# Was pretty straightforward - I am repeating myself a bit here, but doing it this way makes the code easier to understand logically
 
 
