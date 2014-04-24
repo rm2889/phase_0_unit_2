@@ -142,4 +142,4 @@ puts silverware_drawer.is_empty? == true
 
 
 # 5. Reflection 
-# Some of the questions were open-ended and I'm sure my interpretation is gonna be way different from someone else's
+# Some of the questions were open-ended and I'm sure my interpretation is gonna be way different from someone else's. Learned about attr_reader, attr_accessor, etc.
